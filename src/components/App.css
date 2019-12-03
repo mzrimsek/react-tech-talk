@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+
+header b {
+  font-size: 40px;
+}
+
+header img {
+  height: 200px;
+}
