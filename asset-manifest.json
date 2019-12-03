@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-tect-talk/static/css/main.a6dbb355.chunk.css",
+    "main.js": "/react-tect-talk/static/js/main.cfc432f0.chunk.js",
+    "main.js.map": "/react-tect-talk/static/js/main.cfc432f0.chunk.js.map",
+    "runtime-main.js": "/react-tect-talk/static/js/runtime-main.69b4b2f0.js",
+    "runtime-main.js.map": "/react-tect-talk/static/js/runtime-main.69b4b2f0.js.map",
+    "static/js/2.54467b91.chunk.js": "/react-tect-talk/static/js/2.54467b91.chunk.js",
+    "static/js/2.54467b91.chunk.js.map": "/react-tect-talk/static/js/2.54467b91.chunk.js.map",
+    "index.html": "/react-tect-talk/index.html",
+    "precache-manifest.00de6fb0a5aca3cebc1ef343b3d8f7eb.js": "/react-tect-talk/precache-manifest.00de6fb0a5aca3cebc1ef343b3d8f7eb.js",
+    "service-worker.js": "/react-tect-talk/service-worker.js",
+    "static/css/main.a6dbb355.chunk.css.map": "/react-tect-talk/static/css/main.a6dbb355.chunk.css.map",
+    "static/media/logo.svg": "/react-tect-talk/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69b4b2f0.js",
+    "static/js/2.54467b91.chunk.js",
+    "static/css/main.a6dbb355.chunk.css",
+    "static/js/main.cfc432f0.chunk.js"
+  ]
+}
