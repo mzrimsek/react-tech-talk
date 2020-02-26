@@ -20,7 +20,10 @@ export default class PictureSelector extends React.Component {
                 text: 'Nerd'
             }
         ];
-        const buttons = selectionInfo.map(item => <button onClick={() => this.props.setPicture(item.link, item.caption)}>{item.text}</button>);
+        const { setPicture } = this.props;
+        const buttons = selectionInfo.map(item => 
+            <button onClick={() => setPicture(item.link, item.caption)}>{item.text}</button>
+        );
         return <div className="picture-selector">
             <b>Select a Picture!</b>
             {buttons}
