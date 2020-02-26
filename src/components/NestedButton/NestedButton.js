@@ -18,14 +18,18 @@ export default class NestedButton extends React.Component {
 
     render() {
         return <div className="button">
-            <PropButton handleClick={this.increment}></PropButton>
-            <b>{this.state.count}</b>
+            <PropButton handleClick={this.increment}>
+                <b>{this.state.count}</b>
+            </PropButton>
         </div>
     }
 }
 
 class PropButton extends React.Component {
     render() {
-        return <button onClick={() => this.props.handleClick()}>Click Me!</button>
+        return <div>
+            <button onClick={() => this.props.handleClick()}>Click Me!</button>
+            {this.props.children}
+        </div>
     }
 }
